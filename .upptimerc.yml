@@ -1,13 +1,32 @@
 owner: FxllenCode # GitHub username
 repo: StatusPlus # GitHub repository name
 sites: # List of endpoints to track
-  - name: Google
-    url: https://www.google.com
+  - name: Roblox Site
+    url: https://www.roblox.com
+    maxResponseTime: 2500
+
+  - name: Avatar API Endpoint
+    url:  https://avatar.roblox.com/v1/avatar-rules
+    method: GET
+    maxResponseTime: 2500
+
+
 assignees: # Users to assign downtime issues (optional)
   - FxllenCode
 status-website: # Status website (optional)
 
   baseUrl: /StatusPlus
   name: Status+ # Status website title
+
+
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/FxllenCode/StatusPlus
+
+  status-website:
+  introTitle: "**Status + is a free, automated alternative to Roblox's Status Site."
+  introMessage: This uses real-time information from roblox's API endpoints to determine if there is any slowness/outages. This can detect outages faster than Roblox's status site as this is automated. It can also be used inside Roblox games. This part of Status + is called DowntimeService.
 
   # why dude
