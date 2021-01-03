@@ -20,17 +20,17 @@ sites: # List of endpoints to track
     method: GET
     maxResponseTime: 2500  
 
-   - name: Develop API Endpoint 
+  - name: Develop API Endpoint 
     url:  https://develop.roblox.com/v1/toolbox/items?category=Hat&keyword=Hat
     method: GET
     maxResponseTime: 2500   
 
-   - name: Friends API Endpoint 
+  - name: Friends API Endpoint 
     url:   https://friends.roblox.com/v1/metadata 
     method: GET
     maxResponseTime: 2500     
 
-    - name: Friends API Endpoint 
+  - name: Friends API Endpoint 
     url:   https://gamejoin.roblox.com/v1/join-game
     method: POST
     maxResponseTime: 2500     
