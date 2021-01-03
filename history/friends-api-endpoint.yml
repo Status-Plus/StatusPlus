@@ -1,7 +1,7 @@
-url: https://gamejoin.roblox.com/v1/join-game  
-status: down
-code: 411
-responseTime: 164
-lastUpdated: 2021-01-03T19:38:10.596Z
+url: https://friends.roblox.com/v1/metadata  
+status: up
+code: 200
+responseTime: 180
+lastUpdated: 2021-01-03T19:42:43.758Z
 startTime: Sun Jan 03 2021 19:38:09 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
