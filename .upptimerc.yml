@@ -9,3 +9,5 @@ status-website: # Status website (optional)
 
   baseUrl: /StatusPlus
   name: Status+ # Status website title
+
+  # why dude
