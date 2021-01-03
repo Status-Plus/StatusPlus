@@ -10,6 +10,38 @@ sites: # List of endpoints to track
     method: GET
     maxResponseTime: 2500
 
+  - name: Badges API Endpoint
+    url:  https://badges.roblox.com/v1/badges/2124548403
+    method: GET
+    maxResponseTime: 2500  
+
+  - name: Catalog API Endpoint 
+    url:  https://catalog.roblox.com/v1/bundles/details?bundleIds=192
+    method: GET
+    maxResponseTime: 2500  
+
+   - name: Develop API Endpoint 
+    url:  https://develop.roblox.com/v1/toolbox/items?category=Hat&keyword=Hat
+    method: GET
+    maxResponseTime: 2500   
+
+   - name: Friends API Endpoint 
+    url:   https://friends.roblox.com/v1/metadata 
+    method: GET
+    maxResponseTime: 2500     
+
+    - name: Friends API Endpoint 
+    url:   https://gamejoin.roblox.com/v1/join-game
+    method: POST
+    maxResponseTime: 2500     
+  
+
+
+
+  
+
+
+
 
 assignees: # Users to assign downtime issues (optional)
   - FxllenCode
