@@ -64,7 +64,7 @@ status-website: # Status website (optional)
 
   navbar:
     - title: Status
-      href: /
+      href: /StatusPlus
     - title: GitHub
       href: https://github.com/FxllenCode/StatusPlus
 
