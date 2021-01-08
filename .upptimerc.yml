@@ -30,6 +30,23 @@ sites: # List of endpoints to track
     method: GET
     maxResponseTime: 2500     
 
+  - name: Groups API Endpoint 
+    url:   https://groups.roblox.com/v1/groups/configuration/metadata
+    method: GET
+    maxResponseTime: 2500     
+
+  - name: Inventory API Endpoint 
+    url:   https://inventory.roblox.com/v1/users/82738847/assets/collectibles?limit=10&sortOrder=Asc
+    method: GET
+    maxResponseTime: 2500     
+
+  - name: Thumbnails API Endpoint 
+    url:   https://thumbnails.roblox.com/v1/assets?assetIds=82738847&format=Png&isCircular=false&size=30x30
+    method: GET
+    maxResponseTime: 2500     
+
+
+
 
 
   # e
