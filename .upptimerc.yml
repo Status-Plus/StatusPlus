@@ -6,61 +6,54 @@ sites: # List of endpoints to track
     maxResponseTime: 5
 
   - name: Avatar API Endpoint
-    url:  https://avatar.roblox.com/v1/avatar-rules
+    url: https://avatar.roblox.com/v1/avatar-rules
     method: GET
     maxResponseTime: 1000
 
   - name: Badges API Endpoint
-    url:  https://badges.roblox.com/v1/badges/2124548403
-    method: GET
-    maxResponseTime: 1000  
-
-  - name: Catalog API Endpoint 
-    url:  https://catalog.roblox.com/v1/bundles/details?bundleIds=192
-    method: GET
-    maxResponseTime: 1000 
-
-  - name: Develop API Endpoint 
-    url:  https://develop.roblox.com/v1/toolbox/items?category=Hat&keyword=Hat
+    url: https://badges.roblox.com/v1/badges/2124548403
     method: GET
     maxResponseTime: 1000
 
-  - name: Friends API Endpoint 
-    url:   https://friends.roblox.com/v1/metadata 
+  - name: Catalog API Endpoint
+    url: https://catalog.roblox.com/v1/bundles/details?bundleIds=192
     method: GET
-    maxResponseTime: 1000    
+    maxResponseTime: 1000
 
-  - name: Groups API Endpoint 
-    url:   https://groups.roblox.com/v1/groups/configuration/metadata
+  - name: Develop API Endpoint
+    url: https://develop.roblox.com/v1/toolbox/items?category=Hat&keyword=Hat
     method: GET
-    maxResponseTime: 1000     
+    maxResponseTime: 1000
 
-  - name: Inventory API Endpoint 
-    url:   https://inventory.roblox.com/v1/users/82738847/assets/collectibles?limit=10&sortOrder=Asc
+  - name: Friends API Endpoint
+    url: https://friends.roblox.com/v1/metadata
     method: GET
-    maxResponseTime: 1000    
+    maxResponseTime: 1000
 
-  - name: Thumbnails API Endpoint 
-    url:   https://thumbnails.roblox.com/v1/assets?assetIds=82738847&format=Png&isCircular=false&size=30x30
+  - name: Groups API Endpoint
+    url: https://groups.roblox.com/v1/groups/configuration/metadata
     method: GET
-    maxResponseTime: 1000     
+    maxResponseTime: 1000
 
+  - name: Inventory API Endpoint
+    url: https://inventory.roblox.com/v1/users/82738847/assets/collectibles?limit=10&sortOrder=Asc
+    method: GET
+    maxResponseTime: 1000
 
+  - name: Thumbnails API Endpoint
+    url: https://thumbnails.roblox.com/v1/assets?assetIds=82738847&format=Png&isCircular=false&size=30x30
+    method: GET
+    maxResponseTime: 1000
 
 # ????
 
-  # e
-
-
-
+# e
 
 assignees: # Users to assign downtime issues (optional)
   - FxllenCode
 status-website: # Status website (optional)
-
   baseUrl: /StatusPlus
   name: Status+ # Status website title
-
 
   navbar:
     - title: Status
@@ -68,17 +61,16 @@ status-website: # Status website (optional)
     - title: GitHub
       href: https://github.com/FxllenCode/StatusPlus
 
-  status-website:
   introTitle: "**Status + is a free, automated alternative to Roblox's Status Site."
   introMessage: This uses real-time information from roblox's API endpoints to determine if there is any slowness/outages. This can detect outages faster than Roblox's status site as this is automated. It can also be used inside Roblox games. This part of Status + is called DowntimeService.
 
   # why dude
 
   workflowSchedule:
-  graphs: "*/5 * * * *"
-  responseTime: "*/5 * * * *"
-  staticSite: "0 1 * * *"
-  summary: "*/5 * * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
+    graphs: "*/5 * * * *"
+    responseTime: "*/5 * * * *"
+    staticSite: "0 1 * * *"
+    summary: "*/5 * * * *"
+    updateTemplate: "0 0 * * *"
+    updates: "0 3 * * *"
+    uptime: "*/5 * * * *"
