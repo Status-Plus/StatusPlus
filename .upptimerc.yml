@@ -3,7 +3,7 @@ repo: StatusPlus # GitHub repository name
 sites: # List of endpoints to track
   - name: Roblox Site
     url: https://www.roblox.com
-    maxResponseTime: 1000
+    maxResponseTime: 5
 
   - name: Avatar API Endpoint
     url:  https://avatar.roblox.com/v1/avatar-rules
