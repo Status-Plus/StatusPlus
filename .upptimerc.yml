@@ -66,11 +66,11 @@ status-website: # Status website (optional)
 
   # why dude
 
-  workflowSchedule:
-    graphs: "*/5 * * * *"
-    responseTime: "*/5 * * * *"
-    staticSite: "0 1 * * *"
-    summary: "*/5 * * * *"
-    updateTemplate: "0 0 * * *"
-    updates: "0 3 * * *"
-    uptime: "*/5 * * * *"
+workflowSchedule:
+  graphs: "*/5 * * * *"
+  responseTime: "*/5 * * * *"
+  staticSite: "0 1 * * *"
+  summary: "*/5 * * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
