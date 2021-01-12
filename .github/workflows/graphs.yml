@@ -10,7 +10,7 @@
 name: Graphs CI
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/5 * * * *"
   repository_dispatch:
     types: [graphs]
   workflow_dispatch:
