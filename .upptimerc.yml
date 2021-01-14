@@ -1,4 +1,4 @@
-owner: FxllenCode # GitHub username
+owner: Status-Plus # GitHub username
 repo: StatusPlus # GitHub repository name
 sites: # List of endpoints to track
   - name: Roblox Site
