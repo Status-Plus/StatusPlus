@@ -20,6 +20,11 @@ sites: # List of endpoints to track
     method: GET
     maxResponseTime: 1000
 
+  - name: Datastore API Endpoint
+    url: https://gamepersistence.roblox.com/
+    method: GET
+    maxResponseTime: 1000
+
   - name: Develop API Endpoint
     url: https://develop.roblox.com/v1/toolbox/items?category=Hat&keyword=Hat
     method: GET
