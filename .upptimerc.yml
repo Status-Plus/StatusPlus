@@ -8,7 +8,7 @@ sites: # List of endpoints to track
   - name: Avatar API Endpoint
     url: https://avatar.roblox.com/v1/avatar-rules
     method: GET
-    maxResponseTime: 1
+    maxResponseTime: 1000
 
   - name: Badges API Endpoint
     url: https://badges.roblox.com/v1/badges/2124548403
