@@ -6,11 +6,11 @@ sites: # List of endpoints to track
     maxResponseTime: 1000
 
   - name: Roblox Devforum
-    url: https://www.devforum.roblox.com
+    url: https://devforum.roblox.com
     maxResponseTime: 1000
 
   - name: Roblox Devhub
-    url: https://www.developer.roblox.com
+    url: https://developer.roblox.com
     maxResponseTime: 1000
 
   - name: Avatar API Endpoint
