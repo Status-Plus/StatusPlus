@@ -48,7 +48,7 @@ sites: # List of endpoints to track
     method: GET
     maxResponseTime: 1000
 
-  - name: Friends API Endpoint
+  - name: Game Join API Endpoint
     url: http://gamejoin.roblox.com/
     method: GET
     maxResponseTime: 1000    
