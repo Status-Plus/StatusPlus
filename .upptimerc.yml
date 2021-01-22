@@ -81,9 +81,8 @@ assignees: # Users to assign downtime issues (optional)
   - FxllenCode
 status-website: # Status website (optional)
   baseUrl: /StatusPlus
-  name: Status+ # Status website title
   logoUrl: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/Full.svg
-
+  publish: true
   scripts:
       - src: https://www.googletagmanager.com/gtag/js?id=G-97T3SSH4DV
         async: true
