@@ -82,7 +82,7 @@ assignees: # Users to assign downtime issues (optional)
 status-website: # Status website (optional)
   baseUrl: /StatusPlus
   logoUrl: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/Full.svg
-  name:    
+  name: Status +
   publish: true
   scripts:
       - src: https://www.googletagmanager.com/gtag/js?id=G-97T3SSH4DV
@@ -115,4 +115,6 @@ workflowSchedule:
   uptime: "*/5 * * * *"
 
 i18n:
+  header: 
   footer: This page is made with ❤️ by FxllenCode.
+  
