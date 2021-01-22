@@ -102,10 +102,11 @@ status-website: # Status website (optional)
 
   css:
     "
-    article { border: 1px solid #4c4e52; padding: 1rem 1.25rem; position: relative; border-radius: 0; background-color: #303133; }
+    article { border: 1px solid #1f2021; padding: 1rem 1.25rem; position: relative; border-radius: 0; background-color: #303133; }
     chartjs-render-monitor { filter: invert(43%) sepia(65%) saturate(3972%) hue-rotate(182deg) brightness(111%) contrast(101%); }
     body { background-color: #303133; color: white; }
-    article { background-color: #4c4e52;}
+    article { background-color: #1f2021;}
+    article.svelte-uyma2x.svelte-uyma2x.svelte-uyma2x {filter: invert(43%) sepia(65%) saturate(3972%) hue-rotate(182deg) brightness(111%) contrast(101%);}
     nav.svelte-1pyc7i4.svelte-1pyc7i4, nav.svelte-1sgaob0.svelte-1sgaob0 { background: #303133; border-bottom: 1px solid silver; }
     .tag { border-radius: 0; }
     .chartjs-render-monitor { animation: chartjs-render-animation 0.001s; filter: invert(43%) sepia(65%) saturate(3972%) hue-rotate(182deg) brightness(111%) contrast(101%); }   
@@ -122,5 +123,5 @@ workflowSchedule:
   uptime: "*/5 * * * *"
 
 i18n:
-  footer: Made with ❤️ by Status +, 🔌 by Upptime.
+  footer: Made with ❤️ by [Status +](https://github.com/Status-Plus/StatusPlus), 🔌 by [Upptime.](https://github.com/upptime/upptime)
   
