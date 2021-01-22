@@ -105,6 +105,16 @@ status-website: # Status website (optional)
   #   - rel: stylesheet
   #     href: https://raw.githubusercontent.com/Status-Plus/ExtraWork/main/ExtraCode/CSS/StatusPlusCustom.css
 
+css:
+    "
+    article { border: 1px solid #101010; padding: 1rem 1.25rem; position: relative; border-radius: 0; background-color: #303133; }
+    chartjs-render-monitor { filter: invert(43%) sepia(65%) saturate(3972%) hue-rotate(182deg) brightness(111%) contrast(101%); }
+    body { background-color: #303133; color: darkgrey; }
+    article { background-color: #070707; }
+    nav.svelte-1pyc7i4.svelte-1pyc7i4, nav.svelte-1sgaob0.svelte-1sgaob0 { background: #303133; border-bottom: 1px solid silver; }
+    .tag { border-radius: 0; }
+    .chartjs-render-monitor { animation: chartjs-render-animation 0.001s; filter: invert(43%) sepia(65%) saturate(3972%) hue-rotate(182deg) brightness(111%) contrast(101%); }   
+    "
 
 workflowSchedule:
   graphs: "*/5 * * * *"
