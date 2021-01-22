@@ -81,9 +81,10 @@ assignees: # Users to assign downtime issues (optional)
   - FxllenCode
 status-website: # Status website (optional)
   baseUrl: /StatusPlus
-  logoUrl: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/Full.svg
+  logoUrl: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/Full%20(1).svg
   name: Status +
   publish: true
+  hideNavTitle: true
   scripts:
       - src: https://www.googletagmanager.com/gtag/js?id=G-97T3SSH4DV
         async: true
@@ -99,18 +100,9 @@ status-website: # Status website (optional)
         href: https://github.com/FxllenCode/StatusPlus
   introTitle: "**Status + is a free, automated alternative to Roblox's Status Site."
   introMessage: This uses real-time information from roblox's API endpoints to determine if there is any slowness/outages. This can detect outages faster than Roblox's status site as this is automated. It can also be used inside Roblox games. This part of Status + is called DowntimeService.
-
-  css:
-    "
-    article { border: 1px solid #1f2021; padding: 1rem 1.25rem; position: relative; border-radius: 0; background-color: #303133; }
-    chartjs-render-monitor { filter: invert(43%) sepia(65%) saturate(3972%) hue-rotate(182deg) brightness(111%) contrast(101%); }
-    body { background-color: #303133; color: white; }
-    article { background-color: #1f2021;}
-    nav.svelte-1pyc7i4.svelte-1pyc7i4, nav.svelte-1sgaob0.svelte-1sgaob0 { background: #303133; border-bottom: 1px solid silver; }
-    .tag { border-radius: 0; }
-    .chartjs-render-monitor { animation: chartjs-render-animation 0.001s; filter: invert(43%) sepia(65%) saturate(3972%) hue-rotate(182deg) brightness(111%) contrast(101%); }   
-
-    "
+  theme: "dark"
+  faviconSvg: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/PlusLogo.svg
+  favicon: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/PNG/Icon%20Only/PlusLogo-192h.png
 
 workflowSchedule:
   graphs: "*/5 * * * *"
