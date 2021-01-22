@@ -99,9 +99,11 @@ status-website: # Status website (optional)
         href: https://github.com/FxllenCode/StatusPlus
   introTitle: "**Status + is a free, automated alternative to Roblox's Status Site."
   introMessage: This uses real-time information from roblox's API endpoints to determine if there is any slowness/outages. This can detect outages faster than Roblox's status site as this is automated. It can also be used inside Roblox games. This part of Status + is called DowntimeService.
-  links:
-    - rel: stylesheet
-      href: https://raw.githubusercontent.com/Status-Plus/ExtraWork/main/ExtraCode/CSS/StatusPlusCustom.css
+  
+  # broken stuff below; caused outage:
+  # links:
+  #   - rel: stylesheet
+  #     href: https://raw.githubusercontent.com/Status-Plus/ExtraWork/main/ExtraCode/CSS/StatusPlusCustom.css
 
 
 workflowSchedule:
