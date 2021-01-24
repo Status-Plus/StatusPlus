@@ -133,8 +133,6 @@ status-website: # Status website (optional)
     .svelte-a08hsz { background-color: #111111; color: white; }
     article { border: 1px solid #101010; padding: 1rem 1.25rem; position: relative; border-radius: 0; background-color: #222222; }
     article.good.svelte-1uadwzk { background-color: green; color: white; }    
-    article.up { border-left: 0.2rem solid green; }    
-    article.down { border-left: 0.2rem solid darkred; }
     chartjs-render-monitor { filter: invert(44%) sepia(93%) saturate(2391%) hue-rotate(178deg) brightness(103%) contrast(106%); }
     body { background-color: #222222; color: white; }
     article { background-color: #111111; }
