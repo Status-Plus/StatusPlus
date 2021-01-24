@@ -82,7 +82,7 @@ assignees: # Users to assign downtime issues (optional)
 status-website: # Status website (optional)
   baseUrl: /StatusPlus
   logoUrl: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/Full%20(1).svg
-  name: Status +
+  name: Status+
   publish: true
   hideNavTitle: true
   scripts:
@@ -130,7 +130,7 @@ status-website: # Status website (optional)
   --graph-opacity: 1;
   --graph-filter: invert(44%) sepia(93%) saturate(2391%) hue-rotate(178deg) brightness(103%) contrast(106%);
 }
-
+    .svelte-a08hsz { background-color: #070707; color: white; }
     article { border: 1px solid #101010; padding: 1rem 1.25rem; position: relative; border-radius: 0; background-color: #000; }
     article.good.svelte-1uadwzk { background-color: green; color: white; }    
     article.up { border-left: 0.2rem solid green; }    
