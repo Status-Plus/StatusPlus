@@ -33,7 +33,7 @@ This repository contains the open-source uptime monitor and status page for [Sta
 
 <!--end: status pages-->
 
-[**Visit our status website →**](https://status-plus.github.io/StatusPlus/
+[**Visit our status website →**](https://status-plus.github.io/StatusPlus/)
 
 ## 📄 License
 
