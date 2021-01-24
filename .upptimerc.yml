@@ -104,20 +104,33 @@ status-website: # Status website (optional)
   faviconSvg: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/PlusLogo.svg
   favicon: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/PNG/Icon%20Only/PlusLogo-192h.png
   css:   "
-    article { border: 1px solid #101010; padding: 1rem 1.25rem; position: relative; border-radius: 0; background-color: #000; }
-    article.good.svelte-1uadwzk { background-color: green; color: white; }    
-    article.up { border-left: 0.2rem solid green; }    
-    article.down { border-left: 0.2rem solid darkred; }
-    chartjs-render-monitor { filter: invert(44%) sepia(93%) saturate(2391%) hue-rotate(178deg) brightness(103%) contrast(106%);; }
-    body { background-color: #000000; color: white; }
-    article { background-color: #070707; }
-    .svelte-a08hsz { background-color: #070707; color: white; }
-    nav.svelte-1pyc7i4.svelte-1pyc7i4, nav.svelte-1sgaob0.svelte-1sgaob0 { background: #000000; border-bottom: 1px solid silver; }
-    .tag { border-radius: 0; }
-    .tag.closed, .tag.up { background-color: green; }
-    .chartjs-render-monitor { animation: chartjs-render-animation 0.001s; filter: invert(44%) sepia(93%) saturate(2391%) hue-rotate(178deg) brightness(103%) contrast(106%);; }
-    .graph svelte-14gfn20 { animation: chartjs-render-animation 0.001s; filter: invert(44%) sepia(93%) saturate(2391%) hue-rotate(178deg) brightness(103%) contrast(106%);; }
-    
+   :root {
+  --body-background-color: #f0f7f7;
+  --body-text-color: #002626;
+  --card-background-color: #ffffff;
+  --nav-background-color: #ffffff;
+  --nav-border-bottom-color: #d8e8e4;
+  --nav-current-border-bottom-color: #1abc9c;
+  --card-border-color: #d8e8e4;
+  --down-border-left-color: #eb3b5a;
+  --down-background-color: #ffd0d2;
+  --degraded-border-left-color: #f7b731;
+  --up-border-left-color: #20bf6b;
+  --tag-color: #ffffff;
+  --tag-up-background-color: #20bf6b;
+  --tag-down-background-color: #eb3b5a;
+  --tag-degraded-background-color: #f7b731;
+  --change-background-color: #f7b731;
+  --error-button-border-color: #1a46ad;
+  --error-button-background-color: #3867d6;
+  --error-button-color: #ffffff;
+  --submit-button-border-color: #1a46ad;
+  --submit-button-background-color: #3867d6;
+  --submit-button-color: #ffffff;
+  --graph-opacity: 1;
+  --graph-filter: invert(44%) sepia(93%) saturate(2391%) hue-rotate(178deg) brightness(103%) contrast(106%);
+}
+
     "
 workflowSchedule:
   graphs: "*/5 * * * *"
