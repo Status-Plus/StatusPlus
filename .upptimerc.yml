@@ -85,7 +85,7 @@ status-website: # Status website (optional)
   name: Status +
   publish: true
   hideNavTitle: true
-  theme: dark
+  theme: https://status-plus.github.io/StatusPlus/custom-dark-theme.css
   scripts:
       - src: https://www.googletagmanager.com/gtag/js?id=G-97T3SSH4DV
         async: true
