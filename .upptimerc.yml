@@ -101,7 +101,6 @@ status-website: # Status website (optional)
   introTitle: "**Status + is a free, automated alternative to Roblox's Status Site."
   introMessage: This uses real-time information from roblox's API endpoints to determine if there is any slowness/outages. This can detect outages faster than Roblox's status site as this is automated. It can also be used inside Roblox games. This part of Status + is called DowntimeService.
   customHeadHtml: "
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="twitter:title" content="Status+" />
@@ -121,7 +120,6 @@ status-website: # Status website (optional)
   <meta property="og:type" content="website" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  
   "
   faviconSvg: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/PlusLogo.svg
   favicon: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/PNG/Icon%20Only/PlusLogo-192h.png
