@@ -100,7 +100,29 @@ status-website: # Status website (optional)
         href: https://github.com/FxllenCode/StatusPlus
   introTitle: "**Status + is a free, automated alternative to Roblox's Status Site."
   introMessage: This uses real-time information from roblox's API endpoints to determine if there is any slowness/outages. This can detect outages faster than Roblox's status site as this is automated. It can also be used inside Roblox games. This part of Status + is called DowntimeService.
-
+  customHeadHtml: "
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:title" content="Status+" />
+  <link rel="canonical" href="https://status-plus.github.io/StatusPlus/" />
+  <meta property="og:url" content="https://status-plus.github.io/StatusPlus/" />
+  <meta name="twitter:url" content="https://status-plus.github.io/StatusPlus/" />
+  <meta name="author" content="FxllenCode" />
+  <meta name="description" content="Status+ is an automated alternative to Roblox's Status Site." />
+  <meta property="og:description" content="Status+ is an automated alternative to Roblox's Status Site." />
+  <meta name="twitter:description" content="Status+ is an automated alternative to Roblox's Status Site."/>
+  <meta property="og:image"  content="https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Contained/SVG/Compact.svg" />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Contained/SVG/Compact.svg" />
+  <meta name="twitter:image:alt" content="Status+" />
+  <meta name="keywords" content="Roblox, Roblox Status, Roblox Down, Roblox Issues, Status+, DowntimeService, FxllenCode" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta property="og:site_name" content="Status+" />
+  <meta property="og:type" content="website" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  
+  "
   faviconSvg: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/PlusLogo.svg
   favicon: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/PNG/Icon%20Only/PlusLogo-192h.png
   css:   "
@@ -141,6 +163,8 @@ status-website: # Status website (optional)
     .tag.closed, .tag.up { background-color: green; }
     .chartjs-render-monitor { animation: chartjs-render-animation 0.001s; filter: invert(44%) sepia(93%) saturate(2391%) hue-rotate(178deg) brightness(103%) contrast(106%); }
     "
+
+    
 workflowSchedule:
   graphs: "*/5 * * * *"
   responseTime: "*/5 * * * *"
