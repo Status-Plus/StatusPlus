@@ -100,7 +100,28 @@ status-website: # Status website (optional)
         href: https://github.com/FxllenCode/StatusPlus
   introTitle: "**Status + is a free, automated alternative to Roblox's Status Site."
   introMessage: This uses real-time information from roblox's API endpoints to determine if there is any slowness/outages. This can detect outages faster than Roblox's status site as this is automated. It can also be used inside Roblox games. This part of Status + is called DowntimeService.
-  
+  # start meta
+  customHeadHtml: "<meta charset="UTF-8">"
+  customHeadHtml: "<meta name="viewport" content="width=device-width, initial-scale=1.0">"
+  customHeadHtml: "<meta property="og:title"  content="Status+" />"
+  customHeadHtml: "<meta name="twitter:title" content="Status+" />"
+  customHeadHtml: "	<link rel="canonical" href="https://status-plus.github.io/StatusPlus/" />"  
+  customHeadHtml: "	<meta property="og:url" content="https://status-plus.github.io/StatusPlus/" />"  
+  customHeadHtml: "	<meta name="twitter:url" content="https://status-plus.github.io/StatusPlus/" />"  
+  customHeadHtml: "	<meta name="author" content="FxllenCode" />"  
+  customHeadHtml: "<meta name="description" content="Status+ | An automated alternative to Roblox's Status Site" />"    
+  customHeadHtml: "<meta property="og:description" content="Status+ | An automated alternative to Roblox's Status Site" />"  
+  customHeadHtml: "<meta name="twitter:description" content="Status+ | An automated alternative to Roblox's Status Site"/>"  
+  customHeadHtml: "<meta property="og:image"  content="https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/PlusLogo.svg" />"  
+  customHeadHtml: "<meta name="twitter:image" content="https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/PlusLogo.svg" />"  
+  customHeadHtml: "<meta name="twitter:image:alt" content="Status+" />"  
+  customHeadHtml: "<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />"  
+  customHeadHtml: "<meta property="og:site_name" content="Status+" />"  
+  customHeadHtml: "<meta property="og:type" content="website" />"  
+  customHeadHtml: "<meta name="mobile-web-app-capable" content="yes" />"  
+  customHeadHtml: "<meta name="apple-mobile-web-app-capable" content="yes" />"  
+# end meta
+
   faviconSvg: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/PlusLogo.svg
   favicon: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/PNG/Icon%20Only/PlusLogo-192h.png
   css:   "
