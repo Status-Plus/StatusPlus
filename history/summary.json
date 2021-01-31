@@ -68,18 +68,18 @@
     "icon": "https://favicons.githubusercontent.com/avatar.roblox.com",
     "slug": "avatar-api-endpoint",
     "status": "up",
-    "uptime": "98.35%",
-    "uptimeDay": "98.25%",
-    "uptimeWeek": "99.73%",
-    "uptimeMonth": "98.35%",
-    "uptimeYear": "98.35%",
+    "uptime": "98.34%",
+    "uptimeDay": "97.98%",
+    "uptimeWeek": "99.69%",
+    "uptimeMonth": "98.34%",
+    "uptimeYear": "98.34%",
     "time": 187,
     "timeDay": 151,
     "timeWeek": 197,
     "timeMonth": 187,
     "timeYear": 187,
     "dailyMinutesDown": {
-      "2021-01-31": 25,
+      "2021-01-31": 29,
       "2021-01-29": 2,
       "2021-01-17": 1,
       "2021-01-16": 273,
@@ -186,18 +186,18 @@
     "icon": "https://favicons.githubusercontent.com/friends.roblox.com",
     "slug": "friends-api-endpoint",
     "status": "up",
-    "uptime": "99.83%",
-    "uptimeDay": "95.45%",
-    "uptimeWeek": "99.35%",
-    "uptimeMonth": "99.83%",
-    "uptimeYear": "99.83%",
+    "uptime": "99.82%",
+    "uptimeDay": "95.18%",
+    "uptimeWeek": "99.31%",
+    "uptimeMonth": "99.82%",
+    "uptimeYear": "99.82%",
     "time": 161,
     "timeDay": 159,
     "timeWeek": 171,
     "timeMonth": 161,
     "timeYear": 161,
     "dailyMinutesDown": {
-      "2021-01-31": 65,
+      "2021-01-31": 69,
       "2021-01-03": 3
     }
   },
@@ -227,18 +227,18 @@
     "icon": "https://favicons.githubusercontent.com/groups.roblox.com",
     "slug": "groups-api-endpoint",
     "status": "up",
-    "uptime": "99.92%",
-    "uptimeDay": "98.06%",
-    "uptimeWeek": "99.72%",
-    "uptimeMonth": "99.92%",
-    "uptimeYear": "99.92%",
+    "uptime": "99.91%",
+    "uptimeDay": "97.78%",
+    "uptimeWeek": "99.68%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
     "time": 158,
     "timeDay": 174,
     "timeWeek": 170,
     "timeMonth": 158,
     "timeYear": 158,
     "dailyMinutesDown": {
-      "2021-01-31": 28
+      "2021-01-31": 32
     }
   },
   {
@@ -247,18 +247,18 @@
     "icon": "https://favicons.githubusercontent.com/inventory.roblox.com",
     "slug": "inventory-api-endpoint",
     "status": "up",
-    "uptime": "99.93%",
-    "uptimeDay": "98.33%",
-    "uptimeWeek": "99.76%",
-    "uptimeMonth": "99.93%",
-    "uptimeYear": "99.93%",
+    "uptime": "99.92%",
+    "uptimeDay": "98.05%",
+    "uptimeWeek": "99.72%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.92%",
     "time": 165,
     "timeDay": 170,
     "timeWeek": 180,
     "timeMonth": 165,
     "timeYear": 165,
     "dailyMinutesDown": {
-      "2021-01-31": 24
+      "2021-01-31": 28
     }
   },
   {
@@ -288,18 +288,18 @@
     "icon": "https://favicons.githubusercontent.com/thumbnails.roblox.com",
     "slug": "thumbnails-api-endpoint",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.99%",
+    "uptimeDay": "99.69%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 162,
     "timeDay": 155,
     "timeWeek": 176,
     "timeMonth": 162,
     "timeYear": 162,
     "dailyMinutesDown": {
-      "2021-01-31": 0
+      "2021-01-31": 4
     }
   }
 ]
