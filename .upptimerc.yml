@@ -72,12 +72,7 @@ sites: # List of endpoints to track
     url: https://inventory.roblox.com/v1/users/82738847/assets/collectibles?limit=10&sortOrder=Asc
     method: GET
     maxResponseTime: 1000
-
-  - name: Premium Features API Endpoint
-    url: https://premiumfeatures.roblox.com/
-    method: GET
-    maxResponseTime: 1000
-
+    
   - name: Text Filter API Endpoint
     url: http://textfilter.roblox.com/
     method: GET
