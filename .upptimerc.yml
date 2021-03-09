@@ -121,13 +121,13 @@ status-website: # Status website (optional)
   --nav-border-bottom-color: #d8e8e4;
   --nav-current-border-bottom-color: #1abc9c;
   --card-border-color: #d8e8e4;
-  --down-border-left-color: #eb3b5a;
-  --down-background-color: #ffd0d2;
+  --down-border-left-color: #e81036;
+  --down-background-color: #9e060e;
   --degraded-border-left-color: #f7b731;
   --up-border-left-color: #20bf6b;
   --tag-color: #ffffff;
   --tag-up-background-color: #20bf6b;
-  --tag-down-background-color: #eb3b5a;
+  --tag-down-background-color: #e81036;
   --tag-degraded-background-color: #f7b731;
   --change-background-color: #f7b731;
   --error-button-border-color: #1a46ad;
