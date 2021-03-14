@@ -33,11 +33,6 @@ sites: # List of endpoints to track
     method: GET
     maxResponseTime: 1000
 
-  - name: Economy API Endpoint
-    url: https://economy.roblox.com/
-    method: GET
-    maxResponseTime: 1000
-
   - name: Datastore API Endpoint
     url: https://gamepersistence.roblox.com/
     method: GET
@@ -57,11 +52,6 @@ sites: # List of endpoints to track
     url: http://gamejoin.roblox.com/
     method: GET
     maxResponseTime: 1000    
- 
-  - name: Game Internationalization API Endpoint
-    url: https://gameinternationalization.roblox.com/
-    method: GET
-    maxResponseTime: 1000  
 
   - name: Groups API Endpoint
     url: https://groups.roblox.com/v1/groups/configuration/metadata
@@ -72,11 +62,11 @@ sites: # List of endpoints to track
     url: https://inventory.roblox.com/v1/users/82738847/assets/collectibles?limit=10&sortOrder=Asc
     method: GET
     maxResponseTime: 1000
-    
+
   - name: Text Filter API Endpoint
     url: http://textfilter.roblox.com/
     method: GET
-    maxResponseTime: 2500
+    maxResponseTime: 1000
 
   - name: Thumbnails API Endpoint
     url: https://thumbnails.roblox.com/v1/assets?assetIds=82738847&format=Png&isCircular=false&size=30x30
@@ -101,7 +91,6 @@ status-website: # Status website (optional)
   js: "window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-97T3SSH4DV');"
   navbar:
       - title: Status
@@ -109,7 +98,7 @@ status-website: # Status website (optional)
       - title: GitHub
         href: https://github.com/FxllenCode/StatusPlus
   introTitle: "**Status + is a free, automated alternative to Roblox's Status Site."
-  introMessage: This uses real-time information from roblox's API endpoints to determine if there is any slowness/outages. This can detect outages faster than Roblox's status site as this is automated. It can also be used inside Roblox games. This part of Status + is called [DowntimeService](https://github.com/Status-Plus/DowntimeService).
+  introMessage: This uses real-time information from roblox's API endpoints to determine if there is any slowness/outages. This can detect outages faster than Roblox's status site as this is automated. It can also be used inside Roblox games. This part of Status + is called DowntimeService.
   faviconSvg: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/SVG/PlusLogo.svg
   favicon: https://raw.githubusercontent.com/Status-Plus/StatusPlus/master/Standalone/PNG/Icon%20Only/PlusLogo-192h.png
   css:   "
@@ -121,13 +110,13 @@ status-website: # Status website (optional)
   --nav-border-bottom-color: #d8e8e4;
   --nav-current-border-bottom-color: #1abc9c;
   --card-border-color: #d8e8e4;
-  --down-border-left-color: #e81036;
-  --down-background-color: #9e060e;
+  --down-border-left-color: #eb3b5a;
+  --down-background-color: #ffd0d2;
   --degraded-border-left-color: #f7b731;
   --up-border-left-color: #20bf6b;
   --tag-color: #ffffff;
   --tag-up-background-color: #20bf6b;
-  --tag-down-background-color: #e81036;
+  --tag-down-background-color: #eb3b5a;
   --tag-degraded-background-color: #f7b731;
   --change-background-color: #f7b731;
   --error-button-border-color: #1a46ad;
@@ -153,14 +142,13 @@ status-website: # Status website (optional)
 
     
 workflowSchedule:
-  graphs: "*/10 * * * *"
-  responseTime: "*/10 * * * *"
+  graphs: "*/5 * * * *"
+  responseTime: "*/5 * * * *"
   staticSite: "0 1 * * *"
-  summary: "*/10 * * * *"
+  summary: "*/5 * * * *"
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
-  uptime: "*/10 * * * *"
+  uptime: "*/5 * * * *"
 
 i18n:
   footer: Made with ❤️ by [Status +](https://github.com/Status-Plus/StatusPlus), 🔌 by [Upptime.](https://github.com/upptime/upptime)
-  
