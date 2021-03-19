@@ -29,4 +29,5 @@ jobs:
         with:
           command: "graphs"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+# there is no GH_PAT? also, where is GITHUB_TOKEN in the docs?
