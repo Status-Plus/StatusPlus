@@ -142,12 +142,12 @@ status-website: # Status website (optional)
 
     
 workflowSchedule:
-  graphs: "0 0 * * *" 
-  responseTime: "*/5 * * * *"
-  staticSite: "0 1 * * *"
-  summary: "*/5 * * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
+  graphs: "*/10 * * * *" 
+  responseTime: "*/10 * * * *"
+  staticSite: "*/10 * * * *"
+  summary: "*/10 * * * *"
+  updates: "*/10 * * * *"
+  uptime: "*/10 * * * *"
 
 i18n:
   footer: Made with ❤️ by [Status +](https://github.com/Status-Plus/StatusPlus), 🔌 by [Upptime.](https://github.com/upptime/upptime)
