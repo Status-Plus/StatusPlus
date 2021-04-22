@@ -10,7 +10,7 @@
 name: Static Site CI
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "*/10 * * * *"
   repository_dispatch:
     types: [static_site]
   workflow_dispatch:
