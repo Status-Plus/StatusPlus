@@ -311,18 +311,18 @@
     "icon": "https://favicons.githubusercontent.com/thumbnails.roblox.com",
     "slug": "thumbnails-api-endpoint",
     "status": "degraded",
-    "uptime": "99.98%",
-    "uptimeDay": "99.53%",
-    "uptimeWeek": "99.93%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "99.96%",
+    "uptimeDay": "98.27%",
+    "uptimeWeek": "99.75%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.96%",
     "time": 169,
     "timeDay": 197,
     "timeWeek": 168,
     "timeMonth": 151,
     "timeYear": 169,
     "dailyMinutesDown": {
-      "2021-04-27": 7,
+      "2021-04-27": 25,
       "2021-01-31": 32
     }
   }
