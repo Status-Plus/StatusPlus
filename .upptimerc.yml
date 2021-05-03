@@ -142,7 +142,6 @@ status-website: # Status website (optional)
 
     
 workflowSchedule:
-  graphs: "*/10 * * * *" 
   responseTime: "*/10 * * * *"
   staticSite: "*/10 * * * *"
   summary: "*/10 * * * *"
