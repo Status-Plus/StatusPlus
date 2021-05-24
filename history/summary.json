@@ -11,8 +11,8 @@
     "uptimeMonth": "99.99%",
     "uptimeYear": "98.11%",
     "time": 242,
-    "timeDay": 174,
-    "timeWeek": 205,
+    "timeDay": 176,
+    "timeWeek": 204,
     "timeMonth": 223,
     "timeYear": 242,
     "dailyMinutesDown": {
@@ -35,8 +35,8 @@
     "uptimeMonth": "99.90%",
     "uptimeYear": "99.89%",
     "time": 322,
-    "timeDay": 182,
-    "timeWeek": 180,
+    "timeDay": 181,
+    "timeWeek": 179,
     "timeMonth": 214,
     "timeYear": 322,
     "dailyMinutesDown": {
@@ -63,8 +63,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 186,
-    "timeDay": 193,
-    "timeWeek": 191,
+    "timeDay": 189,
+    "timeWeek": 190,
     "timeMonth": 184,
     "timeYear": 186,
     "dailyMinutesDown": {
@@ -85,7 +85,7 @@
     "time": 169,
     "timeDay": 107,
     "timeWeek": 159,
-    "timeMonth": 161,
+    "timeMonth": 160,
     "timeYear": 169,
     "dailyMinutesDown": {
       "2021-02-24": 16,
@@ -110,7 +110,7 @@
     "uptimeYear": "99.97%",
     "time": 179,
     "timeDay": 110,
-    "timeWeek": 162,
+    "timeWeek": 161,
     "timeMonth": 177,
     "timeYear": 179,
     "dailyMinutesDown": {
@@ -127,7 +127,7 @@
     "slug": "roblox-s-cdn-api-endpoint",
     "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -136,7 +136,9 @@
     "timeWeek": 127,
     "timeMonth": 138,
     "timeYear": 142,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-05-24": 0
+    }
   },
   {
     "name": "Catalog API Endpoint",
@@ -150,8 +152,8 @@
     "uptimeMonth": "99.93%",
     "uptimeYear": "99.98%",
     "time": 168,
-    "timeDay": 101,
-    "timeWeek": 146,
+    "timeDay": 100,
+    "timeWeek": 145,
     "timeMonth": 154,
     "timeYear": 168,
     "dailyMinutesDown": {
@@ -190,7 +192,7 @@
     "uptimeMonth": "99.70%",
     "uptimeYear": "99.91%",
     "time": 189,
-    "timeDay": 104,
+    "timeDay": 103,
     "timeWeek": 189,
     "timeMonth": 192,
     "timeYear": 189,
@@ -218,7 +220,7 @@
     "uptimeYear": "99.83%",
     "time": 162,
     "timeDay": 98,
-    "timeWeek": 140,
+    "timeWeek": 139,
     "timeMonth": 152,
     "timeYear": 162,
     "dailyMinutesDown": {
@@ -238,8 +240,8 @@
     "uptimeMonth": "99.89%",
     "uptimeYear": "99.94%",
     "time": 145,
-    "timeDay": 91,
-    "timeWeek": 126,
+    "timeDay": 89,
+    "timeWeek": 125,
     "timeMonth": 142,
     "timeYear": 145,
     "dailyMinutesDown": {
@@ -261,8 +263,8 @@
     "uptimeYear": "99.84%",
     "time": 161,
     "timeDay": 93,
-    "timeWeek": 144,
-    "timeMonth": 150,
+    "timeWeek": 143,
+    "timeMonth": 149,
     "timeYear": 161,
     "dailyMinutesDown": {
       "2021-04-28": 15,
@@ -282,8 +284,8 @@
     "uptimeYear": "99.85%",
     "time": 174,
     "timeDay": 112,
-    "timeWeek": 159,
-    "timeMonth": 164,
+    "timeWeek": 158,
+    "timeMonth": 163,
     "timeYear": 174,
     "dailyMinutesDown": {
       "2021-01-31": 291
@@ -301,7 +303,7 @@
     "uptimeMonth": "98.44%",
     "uptimeYear": "99.46%",
     "time": 180,
-    "timeDay": 95,
+    "timeDay": 94,
     "timeWeek": 148,
     "timeMonth": 221,
     "timeYear": 180,
@@ -340,9 +342,9 @@
     "uptimeMonth": "99.91%",
     "uptimeYear": "99.96%",
     "time": 166,
-    "timeDay": 103,
-    "timeWeek": 146,
-    "timeMonth": 159,
+    "timeDay": 102,
+    "timeWeek": 145,
+    "timeMonth": 158,
     "timeYear": 166,
     "dailyMinutesDown": {
       "2021-04-29": 7,
