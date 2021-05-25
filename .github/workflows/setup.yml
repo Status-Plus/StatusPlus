@@ -38,10 +38,7 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
-      - name: Update summary in README
-        uses: upptime/uptime-monitor@v1.26.4
-        with:
-          command: "readme"
+    
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
       - name: Generate graphs
