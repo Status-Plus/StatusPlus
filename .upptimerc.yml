@@ -46,7 +46,7 @@ sites: # List of endpoints to track
     maxResponseTime: 1000
 
   - name: Billing API Endpoint
-  
+
     url: https://billing.roblox.com
     method: GET
     maxResponseTime: 1000    
@@ -77,7 +77,7 @@ sites: # List of endpoints to track
     method: GET
     maxResponseTime: 1000
 
-
+# this is a hack OMG
   - name: Friends API Endpoint
     url: https://friends.roblox.com/v1/metadata
     method: GET
