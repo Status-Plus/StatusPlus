@@ -38,9 +38,6 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
-    
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
       - name: Generate graphs
         uses: benc-uk/workflow-dispatch@v1
         with:
