@@ -13,8 +13,30 @@ sites: # List of endpoints to track
     url: https://developer.roblox.com
     maxResponseTime: 1000
 
+  - name: Account Information API
+    url: https://accountinformation.roblox.com
+    method: GET
+    maxResponseTime: 1000
+
+  - name: Account Settings API
+    url: https://accountsettings.roblox.com
+    method: GET
+    maxResponseTime: 1000
+
+
+  - name: Asset Delivery
+    url: https://assetdelivery.roblox.com
+    method: GET
+    maxResponseTime: 1000
+
   - name: Avatar API Endpoint
     url: https://avatar.roblox.com/v1/avatar-rules
+    method: GET
+    maxResponseTime: 1000
+
+
+  - name: Auth API Endpoint
+    url: https://auth.roblox.com
     method: GET
     maxResponseTime: 1000
 
@@ -23,7 +45,13 @@ sites: # List of endpoints to track
     method: GET
     maxResponseTime: 1000
 
-  - name: Roblox's CDN API Endpoint
+  - name: Billing API Endpoint
+  
+    url: https://billing.roblox.com
+    method: GET
+    maxResponseTime: 1000    
+
+  - name: CDN API Endpoint
     url: http://cdnproviders.roblox.com/
     method: GET
     maxResponseTime: 1000   
@@ -42,6 +70,13 @@ sites: # List of endpoints to track
     url: https://develop.roblox.com/v1/toolbox/items?category=Hat&keyword=Hat
     method: GET
     maxResponseTime: 1000
+
+
+  - name: Economy API Endpoint
+    url: https://economy.roblox.com
+    method: GET
+    maxResponseTime: 1000
+
 
   - name: Friends API Endpoint
     url: https://friends.roblox.com/v1/metadata
@@ -75,6 +110,11 @@ sites: # List of endpoints to track
 
   - name: Thumbnails API Endpoint
     url: https://thumbnails.roblox.com/v1/assets?assetIds=82738847&format=Png&isCircular=false&size=30x30
+    method: GET
+    maxResponseTime: 1000
+
+  - name: Users API Endpoint
+    url: https://users.roblox.com/
     method: GET
     maxResponseTime: 1000
 
