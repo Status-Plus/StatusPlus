@@ -3,7 +3,7 @@ repo: StatusPlus # GitHub repository name
 sites:
   
   - name: Roblox Site (Under Aritifical Testing)
-    url: https://hwhelpnow.com
+    url: https://www.roblox.com
     maxResponseTime: 1000
 
   - name: Roblox Devforum
