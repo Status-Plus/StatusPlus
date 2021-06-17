@@ -3,7 +3,7 @@ repo: StatusPlus # GitHub repository name
 sites: # List of endpoints to track
   
  - name: Test-Site
-    url: https:/hwhelpnow.com/
+    url: https:/hwhelpnow.com
     maxResponseTime: 1000
  
  - name: Roblox Site
