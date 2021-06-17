@@ -11,8 +11,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "98.39%",
     "time": 233,
-    "timeDay": 170,
-    "timeWeek": 166,
+    "timeDay": 168,
+    "timeWeek": 165,
     "timeMonth": 178,
     "timeYear": 233,
     "dailyMinutesDown": {
@@ -35,7 +35,7 @@
     "uptimeMonth": "99.92%",
     "uptimeYear": "99.90%",
     "time": 303,
-    "timeDay": 166,
+    "timeDay": 165,
     "timeWeek": 173,
     "timeMonth": 183,
     "timeYear": 303,
@@ -115,18 +115,20 @@
     "url": "https://assetdelivery.roblox.com",
     "icon": "https://favicons.githubusercontent.com/assetdelivery.roblox.com",
     "slug": "asset-delivery",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.80%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 101,
     "timeDay": 100,
     "timeWeek": 101,
     "timeMonth": 101,
     "timeYear": 101,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-06-17": 3
+    }
   },
   {
     "name": "Avatar API Endpoint",
