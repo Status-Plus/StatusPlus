@@ -2,12 +2,10 @@ owner: Status-Plus # GitHub username
 repo: StatusPlus # GitHub repository name
 sites: # List of endpoints to track
   
- - name: Test-Site
-    url: https:/hwhelpnow.com
-    maxResponseTime: 1000
+ 
  
  - name: Roblox Site
-    url: https://www.roblox.com
+    url: https://www.hwhelpnow.com
     maxResponseTime: 1000
 
   - name: Roblox Devforum
