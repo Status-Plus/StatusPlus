@@ -107,7 +107,9 @@ sites:
   - name: Text Filter API Endpoint
     url: http://textfilter.roblox.com/
     method: GET
-    maxResponseTime: 1000
+    maxResponseTime: 1
+    
+    # fix when roblox stop oopsie
 
   - name: Thumbnails API Endpoint
     url: https://thumbnails.roblox.com/v1/assets?assetIds=82738847&format=Png&isCircular=false&size=30x30
