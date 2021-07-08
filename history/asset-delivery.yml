@@ -1,7 +1,7 @@
 url: https://assetdelivery.roblox.com
-status: degraded
-code: 503
-responseTime: 20490
-lastUpdated: 2021-07-08T23:33:02.960Z
+status: up
+code: 200
+responseTime: 73
+lastUpdated: 2021-07-08T23:50:57.597Z
 startTime: Tue May 25 2021 19:01:07 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
