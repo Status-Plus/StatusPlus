@@ -1,7 +1,7 @@
 url: https://avatar.roblox.com/v1/avatar-rules
-status: down
-code: 503
-responseTime: 382
-lastUpdated: 2021-08-29T23:40:13.500Z
+status: degraded
+code: 200
+responseTime: 5056
+lastUpdated: 2021-08-29T23:41:15.397Z
 startTime: Sun Jan 03 2021 18:33:15 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
