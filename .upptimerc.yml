@@ -87,7 +87,7 @@ sites:
   - name: Game Join API Endpoint
     url: http://gamejoin.roblox.com/
     method: GET
-    maxResponseTime: 1000    
+     maxResponseTime: 1000 
     
   - name: Games API Endpoint
     url: https://games.roblox.com
