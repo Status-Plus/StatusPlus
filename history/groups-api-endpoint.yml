@@ -1,7 +1,7 @@
 url: https://groups.roblox.com/v1/groups/5680533
-status: up
-code: 200
-responseTime: 509
-lastUpdated: 2021-10-29T15:54:19.992Z
+status: degraded
+code: 503
+responseTime: 3172
+lastUpdated: 2021-10-29T16:36:55.650Z
 startTime: Fri Jan 08 2021 01:15:13 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
